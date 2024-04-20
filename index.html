@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAILWAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ticket-booking-container">
+        <form class="ticket-booking-form">
+          <div class="form-group">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="class">Class:</label>
+            <select id="class" name="class" required>
+              <option value="">Select Class</option>
+              <option value="general">General</option>
+              <option value="persons-with-disability">Persons with Disability Concession</option>
+              <option value="flexible-with-date">Flexible With Date</option>
+              <option value="train-with-available-berth">Train with Available Berth</option>
+              <option value="railway-pass-concession">Railway Pass Concession</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <input type="checkbox" id="search" name="search">
+            <label for="search">Search</label>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Book Ticket</button>
+            <button type="button" class="btn btn-secondary">Try Booking in Aas DISHA 2.0</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
